@@ -1,0 +1,18 @@
+program oszto
+  integer a;
+  integer i;
+  integer oszto;
+  boolean vanoszto;
+begin
+  vanoszto := true;
+  a := 1;
+  a:
+  if a = 1 then
+    a := 2;
+    write(a);
+    goto a;
+  endif
+
+  write(vanoszto);
+
+end
