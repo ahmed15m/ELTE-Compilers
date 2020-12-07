@@ -1,0 +1,10 @@
+program oszto
+  string x;
+  integer i;
+begin
+  x := "ahm";
+  i:=1;
+  write(length(x));
+
+  write(length(x + "hello"*2));
+end

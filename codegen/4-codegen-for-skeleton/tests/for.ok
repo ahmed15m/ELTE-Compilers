@@ -1,0 +1,15 @@
+program oszto
+  integer a;
+  integer i;
+  integer oszto;
+  boolean vanoszto;
+begin
+  read(a);
+  for i:=1 to a do 
+    write(i);
+  vanoszto := true;
+  done
+  
+  write(vanoszto);
+
+end

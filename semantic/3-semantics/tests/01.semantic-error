@@ -1,0 +1,8 @@
+program negate
+#   integer i;
+    boolean b;
+begin
+    i := i++;
+    i := --i;
+    write(i);
+end

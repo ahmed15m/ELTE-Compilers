@@ -1,0 +1,29 @@
+program oszto
+  integer a;
+  integer i;
+  time x;
+  integer oszto;
+  boolean vanoszto;
+begin
+  x := 21:00;
+  read(a);
+  
+  i := hour(12:12);
+  x := 12:12 + 12;
+
+  vanoszto := false;
+  i := 2;
+  while not vanoszto and i < a do
+    if a mod i = 0 then
+      vanoszto := true;
+      oszto := i;
+    endif
+    i := i+1;
+  done
+  if vanoszto then
+    write(vanoszto);
+    write(oszto);
+  else
+    write(vanoszto);
+  endif
+end

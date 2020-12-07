@@ -1,0 +1,15 @@
+program oszto
+  time x;
+begin
+  x := 12:10;
+  x := make_time(10,13);
+  write(hour(x));
+  write(minute(x));
+
+
+  x := 12:10 + 10;
+
+
+  write(hour(x));
+  write(minute(x));
+end

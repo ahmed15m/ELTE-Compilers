@@ -1,0 +1,19 @@
+program oszto
+  integer a;
+  integer i;
+  integer oszto;
+  boolean vanoszto;
+begin
+
+
+read(i);
+i := i ** 3;
+write(i);
+
+
+i:=3;
+i := i ** 0;
+write(i);
+
+
+end

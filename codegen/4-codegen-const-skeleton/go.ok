@@ -1,0 +1,10 @@
+program oszto
+  integer z;
+  const integer x;
+  const boolean y;
+begin
+  z := 5;
+  y := true;
+  z := 6;
+  write(z);
+end

@@ -1,0 +1,11 @@
+program oszto
+  integer z;
+begin
+
+read(z);
+if z < 0 then
+restart:
+endif
+
+write(z);
+end

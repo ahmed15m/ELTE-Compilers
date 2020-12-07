@@ -1,0 +1,11 @@
+program oszto
+  integer z;
+begin
+
+read(z);
+
+decreasing z do
+write(z);
+done
+
+end

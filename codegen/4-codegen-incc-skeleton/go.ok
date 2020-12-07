@@ -1,0 +1,7 @@
+program oszto
+  integer x;
+begin
+  x := 5;
+  write(x++);
+  write(x);
+end

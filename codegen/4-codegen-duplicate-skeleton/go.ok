@@ -1,0 +1,11 @@
+program oszto
+  integer x;
+begin
+
+  x := 20;
+
+  duplicate write(x >> 1);
+
+  write(x >> 2);
+
+end
