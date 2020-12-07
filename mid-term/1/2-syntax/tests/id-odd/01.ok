@@ -1,0 +1,9 @@
+program _progg11
+    integer a11;
+    integer _a11;
+    integer _abc12;
+    integer __abc01;
+    boolean ___abcdx123456;
+begin
+    skip;
+end

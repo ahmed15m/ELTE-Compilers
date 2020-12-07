@@ -1,0 +1,8 @@
+program gotos
+  integer a;
+begin
+
+  goto label11;
+  label11:
+  read(a);
+end
