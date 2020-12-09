@@ -1,0 +1,5 @@
+program ures
+    date a;
+begin
+    read(a);
+end

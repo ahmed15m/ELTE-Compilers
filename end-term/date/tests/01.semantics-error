@@ -1,0 +1,5 @@
+program ures
+    date a;
+begin
+    a := 1986-05-15 - 1;
+end

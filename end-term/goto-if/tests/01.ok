@@ -1,0 +1,14 @@
+program gotos
+  integer a;
+begin
+  label11:
+  read(a);
+  label2:
+  if a mod 2 = 0 then
+    a := a - 1;
+    write(a);
+    goto label11 if a > 5;
+  else
+    a := a + 1;
+  endif
+end

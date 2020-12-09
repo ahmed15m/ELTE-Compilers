@@ -1,0 +1,15 @@
+program ures
+    boolean a;
+begin
+    write(1);
+    assert 1=1;
+    write(2);
+
+    read(a);
+    write(a);
+    assert 1=2;
+
+    write(3);
+    write(3);
+    write(3);
+end

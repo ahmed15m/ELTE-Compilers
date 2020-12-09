@@ -1,0 +1,12 @@
+program ures
+    date a;
+begin
+    a := 1986-05-15;
+    write(year(a));
+    write(month(a));
+    write(day(a));
+    a := 2 + 2020-12-02 + 20;
+    write(year(a));
+    write(month(a));
+    write(day(a));
+end
